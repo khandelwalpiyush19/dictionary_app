@@ -6,6 +6,7 @@
   "scripts": {
     "start": "vite",
     "build": "vite build",
+    "preinstall": "chmod +x node_modules/.bin/vite",
     "preview": "vite preview --port 8080"
   },
   "repository": {
